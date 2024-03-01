@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "title": "ACETAMINOFEN",
+    "description": "Jarabe",
+    "price": 100,
+    "thumbnail": [
+      "https://img.freepik.com/vector-gratis/ilustracion-aislada-capsula-medicamento_18591-84252.jpg?size=626&ext=jpg&ga=GA1.1.1954325009.1708959781&semt=sph"
+    ],
+    "code": "abc123",
+    "stock": 10,
+    "status": true,
+    "category": "store"
+  },
+  {
+    "id": 2,
+    "title": "BIFONAZOL",
+    "description": "Locion",
+    "price": 200,
+    "thumbnail": [
+      "https://img.freepik.com/vector-gratis/ilustracion-aislada-capsula-medicamento_18591-84252.jpg?size=626&ext=jpg&ga=GA1.1.1954325009.1708959781&semt=sph"
+    ],
+    "code": "abc456",
+    "stock": 20,
+    "status": true,
+    "category": "store"
+  },
+  {
+    "id": 3,
+    "title": "IBUPROFENO",
+    "description": "Tableta",
+    "price": 300,
+    "thumbnail": [
+      "https://img.freepik.com/vector-gratis/ilustracion-aislada-capsula-medicamento_18591-84252.jpg?size=626&ext=jpg&ga=GA1.1.1954325009.1708959781&semt=sph"
+    ],
+    "code": "abc789",
+    "stock": 30,
+    "status": true,
+    "category": "store"
+  },
+  {
+    "id": 4,
+    "title": "MINOXIDIL",
+    "description": "Gel",
+    "price": 400,
+    "thumbnail": [
+      "https://img.freepik.com/vector-gratis/ilustracion-aislada-capsula-medicamento_18591-84252.jpg?size=626&ext=jpg&ga=GA1.1.1954325009.1708959781&semt=sph"
+    ],
+    "code": "abc159",
+    "stock": 40,
+    "status": true,
+    "category": "store"
+  },
+  {
+    "id": 5,
+    "title": "TIMEROSAL",
+    "description": "Solucion Topica",
+    "price": 500,
+    "thumbnail": [
+      "https://img.freepik.com/vector-gratis/ilustracion-aislada-capsula-medicamento_18591-84252.jpg?size=626&ext=jpg&ga=GA1.1.1954325009.1708959781&semt=sph"
+    ],
+    "code": "abc753",
+    "stock": 50,
+    "status": true,
+    "category": "store"
+  },
+  {
+    "id": 6,
+    "title": "TOLNAFTATO",
+    "description": "Polvo Topico",
+    "price": 600,
+    "thumbnail": [
+      "https://img.freepik.com/vector-gratis/ilustracion-aislada-capsula-medicamento_18591-84252.jpg?size=626&ext=jpg&ga=GA1.1.1954325009.1708959781&semt=sph"
+    ],
+    "code": "abc452",
+    "stock": 60,
+    "status": true,
+    "category": "store"
+  },
+  {
+    "id": 7,
+    "title": "POLOXAMER",
+    "description": "Solucion Oftalmica",
+    "price": 700,
+    "thumbnail": [
+      "https://img.freepik.com/vector-gratis/ilustracion-aislada-capsula-medicamento_18591-84252.jpg?size=626&ext=jpg&ga=GA1.1.1954325009.1708959781&semt=sph"
+    ],
+    "code": "abc984",
+    "stock": 70,
+    "status": true,
+    "category": "store"
+  },
+  {
+    "id": 8,
+    "title": "PIROXICAM",
+    "description": "Gel Topico",
+    "price": 800,
+    "thumbnail": [
+      "https://img.freepik.com/vector-gratis/ilustracion-aislada-capsula-medicamento_18591-84252.jpg?size=626&ext=jpg&ga=GA1.1.1954325009.1708959781&semt=sph"
+    ],
+    "code": "abc349",
+    "stock": 80,
+    "status": true,
+    "category": "store"
+  },
+  {
+    "id": 9,
+    "title": "ROBITUSIN",
+    "description": "Jarabe",
+    "price": "1000",
+    "thumbnail": [
+      "https://img.freepik.com/vector-gratis/ilustracion-aislada-capsula-medicamento_18591-84252.jpg?size=626&ext=jpg&ga=GA1.1.1954325009.1708959781&semt=sph"
+    ],
+    "code": "abc624",
+    "stock": "100",
+    "status": true,
+    "category": "store",
+    "estado": "Activo"
+  }
+]
