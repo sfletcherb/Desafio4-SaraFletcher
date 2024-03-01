@@ -92,29 +92,16 @@
   },
   {
     "id": 8,
-    "title": "PIROXICAM",
-    "description": "Gel Topico",
-    "price": 800,
+    "title": "ROBITUSIN",
+    "description": "",
+    "price": "",
     "thumbnail": [
       "https://img.freepik.com/vector-gratis/ilustracion-aislada-capsula-medicamento_18591-84252.jpg?size=626&ext=jpg&ga=GA1.1.1954325009.1708959781&semt=sph"
     ],
     "code": "abc349",
-    "stock": 80,
+    "stock": "",
     "status": true,
-    "category": "store"
-  },
-  {
-    "id": 9,
-    "title": "ROBITUSIN",
-    "description": "Jarabe",
-    "price": "1000",
-    "thumbnail": [
-      "https://img.freepik.com/vector-gratis/ilustracion-aislada-capsula-medicamento_18591-84252.jpg?size=626&ext=jpg&ga=GA1.1.1954325009.1708959781&semt=sph"
-    ],
-    "code": "abc624",
-    "stock": "100",
-    "status": true,
-    "category": "store",
+    "category": "",
     "estado": "Activo"
   }
 ]

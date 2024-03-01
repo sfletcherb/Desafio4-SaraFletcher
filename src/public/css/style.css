@@ -27,7 +27,7 @@
 }
 
 .btn-card {
-  background-color: #03BECA;
+  background-color: #4C58A0;
   color: #ffffff;
   display: flex;
   width: 50%;
@@ -36,7 +36,7 @@
 }
 
 .btn-card:hover {
-  background-color: #4C58A0;
+  background-color: #03BECA;
   color: #ffffff;
   font-weight: bold;
 }
