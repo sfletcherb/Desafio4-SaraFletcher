@@ -5,7 +5,7 @@ const socket = require("socket.io");
 const {
   readProducts,
   deleteProduct,
-  updateProductByCode,
+  addProduct,
 } = require("./utils/get.products.js");
 const viewsRouter = require("./routes/views.router.js");
 const productsRouter = require("./routes/products.router.js");
@@ -63,12 +63,11 @@ io.on("connection", async (socket) => {
     }
   });
 
-  socket.on("updateProduct", async (data) => {
+  socket.on("addProduct", async (data) => {
     const newData = data;
-    const codeData = data.code;
-
+    console.log("added ", newData);
     try {
-      await updateProductByCode(newData, codeData);
+      await addProduct(newData);
     } catch (error) {
       console.log("could not update ", error);
       throw error;

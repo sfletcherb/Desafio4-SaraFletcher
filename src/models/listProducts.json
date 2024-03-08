@@ -103,5 +103,60 @@
     "status": true,
     "category": "",
     "estado": "Activo"
+  },
+  {
+    "id": 9,
+    "title": "dolex",
+    "description": "tableta",
+    "price": "200",
+    "thumbnail": [],
+    "code": "200",
+    "stock": "20",
+    "status": "Activo",
+    "category": "store"
+  },
+  {
+    "id": 10,
+    "title": "Mentoliate",
+    "description": "jarabe",
+    "price": "200",
+    "thumbnail": [],
+    "code": "adg3434",
+    "stock": "20",
+    "status": "Activo",
+    "category": "store"
+  },
+  {
+    "id": 11,
+    "title": "Risanol",
+    "description": "jarabe",
+    "price": "200",
+    "thumbnail": [],
+    "code": "ad23234",
+    "stock": "20",
+    "status": "Activo",
+    "category": "store"
+  },
+  {
+    "id": 12,
+    "title": "Curita",
+    "description": "jarabe",
+    "price": "200",
+    "thumbnail": [],
+    "code": "bs2342",
+    "stock": "20",
+    "status": "Activo",
+    "category": "store"
+  },
+  {
+    "id": 13,
+    "title": "Alcohol",
+    "description": "jarabe",
+    "price": "200",
+    "thumbnail": [],
+    "code": "cde456",
+    "stock": "20",
+    "status": "Activo",
+    "category": "store"
   }
 ]

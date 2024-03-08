@@ -10,7 +10,11 @@ socket.on("dataProducts", (data) => {
 
   data.forEach((product) => {
     listProducts.innerHTML += `<div class="card">
-    <img class="card-img-top" src=${product.thumbnail} alt="Card image" />
+    ${
+      product.thumbnail
+        ? `<img class="card-img-top" src=${product.thumbnail} />`
+        : ""
+    }
     <div class="card-body">
       <p><strong>id: </strong>${product.id}</p>
       <p><strong>Nombre: </strong>${product.title} </p>
@@ -44,5 +48,5 @@ productForm.addEventListener("submit", (event) => {
     data[key] = value;
   });
   console.log("Datos a enviar:", data);
-  socket.emit("updateProduct", data);
+  socket.emit("addProduct", data);
 });

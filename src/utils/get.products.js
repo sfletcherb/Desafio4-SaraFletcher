@@ -29,4 +29,14 @@ const updateProductByCode = async (data, code) => {
   }
 };
 
-module.exports = { readProducts, updateProductByCode, deleteProduct };
+const addProduct = async (data) => {
+  try {
+    await productManagerInstance.addProduct(data);
+    await productManagerInstance.saveFile();
+  } catch (error) {
+    console.log("Error reading file", error);
+    throw error;
+  }
+};
+
+module.exports = { readProducts, addProduct, deleteProduct };
